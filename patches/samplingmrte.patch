@@ -1,0 +1,26 @@
+diff --git a/parts_util.py b/parts_util.py
+index 5745cd9..ab055f6 100644
+--- a/parts_util.py
++++ b/parts_util.py
+@@ -105,7 +105,7 @@ if env['PLATFORM'] == 'win32':
+         env.Append(CCFLAGS=['/Qprof-gen:srcpos'])
+ 
+ else:
+-    env.Append(CPPFLAGS=['-D_GNU_SOURCE','-fexceptions'])
++    env.Append(CPPFLAGS=['-D_GNU_SOURCE','-fexceptions','-fpermissive'])
+     env.Append(CCFLAGS=['-fPIC'])
+ 
+ 
+diff --git a/src/clrprof/tpss_prof_ext.cpp b/src/clrprof/tpss_prof_ext.cpp
+index 29b5819..1b37352 100644
+--- a/src/clrprof/tpss_prof_ext.cpp
++++ b/src/clrprof/tpss_prof_ext.cpp
+@@ -11,7 +11,7 @@
+  * This software and the related documents are provided as is, with no express or implied
+  * warranties, other than those that are expressly stated in the License.
+ */
+-
++#include <stdint.h>
+ #include "tpss_prof_ext.hpp"
+ 
+ SAMPLINGMRTE1_NAMESPACE_BEGIN

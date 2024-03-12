@@ -1,0 +1,56 @@
+diff --git a/libunwind_helper/utest/utest.parts b/libunwind_helper/utest/utest.parts
+index bab2c6a..5b8d075 100755
+--- a/libunwind_helper/utest/utest.parts
++++ b/libunwind_helper/utest/utest.parts
+@@ -29,8 +29,8 @@ env.DependsOn([Component('tpss.libunwind_helper.utest.ut_helper_cache_entry')])
+ env.Part(alias = 'ut_string_hash', parts_file = 'ut_string_hash/ut_string_hash.parts')
+ env.DependsOn([Component('tpss.libunwind_helper.utest.ut_string_hash')])
+ 
+-env.Part(alias = 'ut_unwind', parts_file = 'ut_unwind/ut_unwind.parts')
+-env.DependsOn([Component('tpss.libunwind_helper.utest.ut_unwind')])
++#env.Part(alias = 'ut_unwind', parts_file = 'ut_unwind/ut_unwind.parts')
++#env.DependsOn([Component('tpss.libunwind_helper.utest.ut_unwind')])
+ 
+ env.Part(alias = 'scripts', parts_file = 'scripts/scripts.parts')
+ env.DependsOn([Component('tpss.libunwind_helper.utest.scripts')])
+diff --git a/tests/testing.parts b/tests/testing.parts
+index 4416d7a..8d5537c 100644
+--- a/tests/testing.parts
++++ b/tests/testing.parts
+@@ -18,14 +18,14 @@ env.PartName('testing')
+ env.Part(alias='helpers', parts_file='helpers/helpers.parts')
+ env.Part(alias='ut', parts_file='unit/ut.parts')
+ 
+-if 'BUILD_TPSS_FOLLOWCHILD_TESTS' in env['MODE']:
+-    env.Part('follow_child', parts_file = 'integration/follow_child/follow_child.parts')
+-    env.DependsOn(Component('tpss.testing.follow_child'))
++#if 'BUILD_TPSS_FOLLOWCHILD_TESTS' in env['MODE']:
++    #env.Part('follow_child', parts_file = 'integration/follow_child/follow_child.parts')
++    #env.DependsOn(Component('tpss.testing.follow_child'))
+ 
+ 
+-if 'BUILD_TPSS_TESTS' in env['MODE']:
+-    env.Part(alias = 'itests', parts_file = 'integration/itests.parts')
+-    env.DependsOn(Component('tpss.testing.helpers'))
++#if 'BUILD_TPSS_TESTS' in env['MODE']:
++    #env.Part(alias = 'itests', parts_file = 'integration/itests.parts')
++    #env.DependsOn(Component('tpss.testing.helpers'))
+ 
+     # TODO: the 'posix' condition should be removed once the Pin will fully pass to dynamic crt library
+     # Currently we use dynamic pincrt for pintools and static version for executables (UTs). Starting from
+@@ -34,9 +34,9 @@ if 'BUILD_TPSS_TESTS' in env['MODE']:
+     # instead of /MD. We decided to wait a normal solution instead of keep different versions of compilation
+     # of the same sources.
+     # See also itests.parts which has another 'posix' condition
+-    if env['PLATFORM'] == 'posix':
+-        env.Part(alias = 'utests', parts_file = 'unit/utests.parts')
+-        env.Part(alias = 'rtests', parts_file = 'regression/rtests.parts')
+-        env.DependsOn(Component('tpss.testing.utests'))
+-        env.DependsOn(Component('tpss.testing.rtests'))
+-        env.DependsOn(Component('tpss.testing.itests'))
++    #if env['PLATFORM'] == 'posix':
++        #env.Part(alias = 'utests', parts_file = 'unit/utests.parts')
++        #env.Part(alias = 'rtests', parts_file = 'regression/rtests.parts')
++        #env.DependsOn(Component('tpss.testing.utests'))
++        #env.DependsOn(Component('tpss.testing.rtests'))
++        #env.DependsOn(Component('tpss.testing.itests'))

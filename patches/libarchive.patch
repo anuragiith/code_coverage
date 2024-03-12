@@ -1,0 +1,13 @@
+diff --git a/libarchive.parts b/libarchive.parts
+index 677c79c..1229eb0 100644
+--- a/libarchive.parts
++++ b/libarchive.parts
+@@ -27,7 +27,7 @@ sources = env.Pattern(src_dir=basedir, includes=['*.c'], excludes=['*test*']).fi
+ 
+ env['LIBARCHIVE_BUILD_DIR'] = env.Dir('$BUILD_DIR') #BUILD_DIR is just string
+ 
+-configCommand = "chmod u+x $SRC_DIR/configure && cd $LIBARCHIVE_BUILD_DIR/lib && $SRC_DIR/configure CC=$CC CFLAGS='$CCFLAGS' LDFLAGS='$LINKFLAGS' --without-xml2 --without-bz2lib --disable-acl --without-expat --disable-bsdcat --disable-bsdcpio --disable-posix-regex-lib --disable-xattr --without-iconv --without-lz4 --without-lzma --without-cng --without-nettle"
++configCommand = "chmod u+x $SRC_DIR/configure && cd $LIBARCHIVE_BUILD_DIR/lib && $SRC_DIR/configure CC=$CC CFLAGS='$CCFLAGS' LDFLAGS='$LINKFLAGS' --without-xml2 --without-bz2lib --disable-acl --without-expat --disable-bsdcat --disable-bsdcpio --disable-posix-regex-lib --disable-xattr --without-iconv --without-lz4 --without-lzma --without-cng --without-nettle --without-zstd"
+ 
+ platform = env['PLATFORM']
+ 

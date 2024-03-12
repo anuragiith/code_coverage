@@ -1,0 +1,12 @@
+diff --git a/curl.parts b/curl.parts
+index f6b90e3..ac48008 100644
+--- a/curl.parts
++++ b/curl.parts
+@@ -54,6 +54,7 @@ if targetPlatform in ['win32', 'posix', 'darwin', 'freebsd']:
+     elif targetPlatform in ('posix', 'freebsd'):
+         if targetPlatform == 'freebsd':
+             configCommand += ' --without-libpsl --without-brotli --without-zstd'
++        configCommand += ' --without-libpsl --without-brotli --without-zstd'
+         config_out = env.Command(['lib/curl_config.h'], config_dependencies, [configCommand])
+         env.Depends(sources, config_out)
+         env.Append(

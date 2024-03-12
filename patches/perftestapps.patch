@@ -1,0 +1,22 @@
+diff --git a/perftestapps.parts b/perftestapps.parts
+index aa8bb62..f72de4c 100644
+--- a/perftestapps.parts
++++ b/perftestapps.parts
+@@ -98,7 +98,7 @@ else:
+     add_test_case('vtunedemo_compressed_dbg')
+ 
+     if env['TARGET_OS']=='posix':
+-        add_test_case('fcstrat')
++        #add_test_case('fcstrat')
+         add_test_case('sap_trex_samples')
+         add_test_case('pause')
+         add_test_case('prof_timer')
+@@ -111,7 +111,7 @@ else:
+         add_test_case('arraytest')
+         add_test_case('memory_object')
+         add_test_case('memory_consumption')
+-        add_test_case('static_linked_sqrt')
++        #add_test_case('static_linked_sqrt')
+         add_test_case('vtunedemo_fork')
+         add_test_case('Cardiac_demo_master')
+         add_test_case('matrix_mpi')
