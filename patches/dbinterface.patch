@@ -1,0 +1,21 @@
+diff --git a/dbisqlite.parts b/dbisqlite.parts
+index ec93951..f7c90bb 100644
+--- a/dbisqlite.parts
++++ b/dbisqlite.parts
+@@ -54,11 +54,11 @@ if env.get('INTELCX_VERSION'):
+     env.Append(CCFLAGS = ['-Wno-error=unused-variable'])
+ 
+ # Warnings as errors
+-if not env.get('IS_CODE_COV', False):
+-    if env['TARGET_OS'] == 'win32':
+-        env.Append(CCFLAGS = '-WX')
+-    else:
+-        env.Append(CCFLAGS = '-Werror')
++#if not env.get('IS_CODE_COV', False):
++    #if env['TARGET_OS'] == 'win32':
++        #env.Append(CCFLAGS = '-WX')
++    #else:
++        #env.Append(CCFLAGS = '-Werror')
+ 
+ config_subdir = 'dbinterface1'
+ 
