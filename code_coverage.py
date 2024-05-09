@@ -106,7 +106,7 @@ class CodeCoverageReportGenerator:
         """Generate coverage report using llvm-cov."""
         command = [f'{llvm_cov_path}', 'show',
                    '--ignore-filename-regex="_sdks/*"',
-                   '--output-dir', self.code_coverage_dir,
+                   '--output-dir', os.path.join(self.code_coverage_dir, "results"),
                    '--format=html',
                    '--instr-profile', self.merged_profdata_file,
                    '--project-title=VTune',
