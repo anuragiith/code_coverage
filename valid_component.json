@@ -1,0 +1,158 @@
+{
+    "apiservice": {
+        "profraw_path": "unit_tests/posix-x86_64/apiservice-test_1.30.9/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_apiservice_1.30.so"
+    },
+    "boost": {
+        "profraw_path": "unit_tests/posix-x86_64/boost.filesystem.tests-DPD200174439_1.82.0.1/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_boost_date_time_1.82.so"
+    },
+    "cctrl": {
+        "profraw_path": "unit_tests/posix-x86_64/cctrl.utest-utest_2.55.11/default.profraw",
+        "so_file_path": "install/lib64/amplxe_cctrl_climgr_2.55.pdb"
+    },
+    "cfgmgr": {
+        "profraw_path": "unit_tests/posix-x86_64/cfgmgr-utest_2.45.6/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_cfgmgr_2.45.so"
+    },
+    "clpt": {
+        "profraw_path": "unit_tests/posix-x86_64/clpt-test_3.11.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_clpt_3.11.so"
+    },
+    "collectionagent": {
+        "profraw_path": "unit_tests/posix-x86_64/collectionagent.utest-test_1.30.13/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_collectionagent_adapter_1.30.so"
+    },
+    "collectionapi": {
+        "profraw_path": "unit_tests/posix-x86_64/collectionapi-utest_1.31.26/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_collectionapi_1.31.so"
+    },
+    "cpil": {
+        "profraw_path": "unit_tests/posix-x86_64/cpil-cpil_utest_2.20.8/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_cpil_2.20.so"
+    },
+    "datasource": {
+        "profraw_path": "unit_tests/posix-x86_64/datasource.utest-test_1.7.6/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_datasource_core_1.7.so"
+    },
+    "dbinterface": {
+        "profraw_path": "unit_tests/posix-x86_64/dbinterface.utest-sqlite_1.201.11/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+    },
+    "dbiproviders": {
+        "profraw_path": "unit_tests/posix-x86_64/dbiproviders.utest-all_1.6.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dbiproviders_core_1.6.so"
+    },
+    "dia": {
+        "profraw_path": "unit_tests/posix-x86_64/diagramdataprovider.utest-all_1.0.62/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+    },
+    "diagramdataprovider": {
+        "profraw_path": "unit_tests/posix-x86_64/diagramdataprovider.utest-all_1.0.62/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+    },
+    "dicerengine": {
+        "profraw_path": "unit_tests/posix-x86_64/dicerengine.utest-all_2.27.63/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dicerengine_core_2.27.so"
+    },
+    "dicerhelpers": {
+        "profraw_path": "unit_tests/posix-x86_64/dicerhelpers.pytest-query_library_1.23.21/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dicerhelpers_core_1.23.so"
+    },
+    "dicerresolver": {
+        "profraw_path": "unit_tests/posix-x86_64/dicerresolver.utest-all_2.27.53/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dicerresolver_core_2.27.so"
+    },
+    "dpihelpers": {
+        "profraw_path": "unit_tests/posix-x86_64/dpihelpers.utest-all_1.43.11/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dpihelpers_1.43.so"
+    },
+    "file_finder": {
+        "profraw_path": "unit_tests/posix-x86_64/file_finder.climgr_test-climgr_test_2.31.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_file_finder_binary_validators_2.31.so"
+    },
+    "gen_helpers": {
+        "profraw_path": "unit_tests/posix-x86_64/gen_helpers.utest-all_2.52.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_gen_helpers_core_2.52.so"
+    },
+    "gtpin": {
+        "profraw_path": "unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/gtpin/default.profraw",
+        "so_file_path": "install/lib64/gtpin_nda"
+    },
+    "loadermodel": {
+        "profraw_path": "unit_tests/posix-x86_64/loadermodel-all_1.13.45/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_loadermodel_1.13.so"
+    },
+    "msngr": {
+        "profraw_path": "unit_tests/posix-x86_64/msngr.cmd_test-utest_2.10.14/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_msngr_cmd_2.10.so"
+    },
+    "perftracerw": {
+        "profraw_path": "unit_tests/posix-x86_64/perftracerw.utils.tests.viewers-perftracerw_1.60.29/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_perftracerw_api_1.60.so"
+    },
+    "python": {
+        "profraw_path": "unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
+        "so_file_path": "install/lib64/python"
+    },
+    "pythonhelpers": {
+        "profraw_path": "unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
+        "so_file_path": "install/lib64/amplxe_pythonhelpers_genhelpers1.pdb"
+    },
+    "qfagent": {
+        "profraw_path": "unit_tests/posix-x86_64/qfagent.qfagent-usage_1.11.53/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_qfagent_assert_1.20.so"
+    },
+    "qfagentfeedback": {
+        "profraw_path": "unit_tests/posix-x86_64/qfagentfeedback.utest-utest_1.13.39/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
+    },
+    "qfagentminidump": {
+        "profraw_path": "unit_tests/posix-x86_64/qfagentminidump.utest-test_1.20.10/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_qfagentminidump_core_1.20.so"
+    },
+    "rdmgr": {
+        "profraw_path": "unit_tests/posix-x86_64/rdmgr-rdmgrtest_2.41.4/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_rdmgr_2.41.so"
+    },
+    "reporter": {
+        "profraw_path": "unit_tests/posix-x86_64/reporter.test-reporter_test_2.9.19/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_reporter_climgr_2.9.so"
+    },
+    "sampling": {
+        "profraw_path": "unit_tests/posix-x86_64/perfconfigs.utest-stall_sampling_mode_availability_4.17.114/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
+    },
+    "smip": {
+        "profraw_path": "unit_tests/posix-x86_64/smip.utest-utest_3.31.46/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_smip_core_3.31.so"
+    },
+    "sourceviewapi": {
+        "profraw_path": "unit_tests/posix-x86_64/sourceviewapi-test_1.4.31/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_sourceviewapi_1.4.so"
+    },
+    "sqlite": {
+        "profraw_path": "unit_tests/posix-x86_64/dbinterface.utest-sqlite_1.201.11/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+    },
+    "timelinedataprovider": {
+        "profraw_path": "unit_tests/posix-x86_64/timelinedataprovider.utest-all_1.27.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_timelinedataprovider_core_1.27.so"
+    },
+    "timelinevm": {
+        "profraw_path": "unit_tests/posix-x86_64/timelinevm-test_1.6.0/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_timelinevm_1.6.so"
+    },
+    "tpss": {
+        "profraw_path": "unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/default.profraw",
+        "so_file_path": "install/lib64/libtpsstool.so"
+    },
+    "viewmodelbase": {
+        "profraw_path": "unit_tests/posix-x86_64/viewmodelbase.utest-test_1.83.7/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_viewmodelbase_core_1.83.so"
+    },
+    "viewpointhelpers": {
+        "profraw_path": "unit_tests/posix-x86_64/viewpointhelpers.utest-utest_1.2.2/default.profraw",
+        "so_file_path": "install/lib64/libamplxe_viewpointhelpers_core_1.2.so"
+    }
+}
