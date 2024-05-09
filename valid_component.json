@@ -7,10 +7,6 @@
         "profraw_path": "unit_tests/posix-x86_64/boost.filesystem.tests-DPD200174439_1.82.0.1/default.profraw",
         "so_file_path": "install/lib64/libamplxe_boost_date_time_1.82.so"
     },
-    "cctrl": {
-        "profraw_path": "unit_tests/posix-x86_64/cctrl.utest-utest_2.55.11/default.profraw",
-        "so_file_path": "install/lib64/amplxe_cctrl_climgr_2.55.pdb"
-    },
     "cfgmgr": {
         "profraw_path": "unit_tests/posix-x86_64/cfgmgr-utest_2.45.6/default.profraw",
         "so_file_path": "install/lib64/libamplxe_cfgmgr_2.45.so"
@@ -75,10 +71,6 @@
         "profraw_path": "unit_tests/posix-x86_64/gen_helpers.utest-all_2.52.7/default.profraw",
         "so_file_path": "install/lib64/libamplxe_gen_helpers_core_2.52.so"
     },
-    "gtpin": {
-        "profraw_path": "unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/gtpin/default.profraw",
-        "so_file_path": "install/lib64/gtpin_nda"
-    },
     "loadermodel": {
         "profraw_path": "unit_tests/posix-x86_64/loadermodel-all_1.13.45/default.profraw",
         "so_file_path": "install/lib64/libamplxe_loadermodel_1.13.so"
@@ -91,21 +83,9 @@
         "profraw_path": "unit_tests/posix-x86_64/perftracerw.utils.tests.viewers-perftracerw_1.60.29/default.profraw",
         "so_file_path": "install/lib64/libamplxe_perftracerw_api_1.60.so"
     },
-    "python": {
-        "profraw_path": "unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
-        "so_file_path": "install/lib64/python"
-    },
-    "pythonhelpers": {
-        "profraw_path": "unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
-        "so_file_path": "install/lib64/amplxe_pythonhelpers_genhelpers1.pdb"
-    },
     "qfagent": {
         "profraw_path": "unit_tests/posix-x86_64/qfagent.qfagent-usage_1.11.53/default.profraw",
         "so_file_path": "install/lib64/libamplxe_qfagent_assert_1.20.so"
-    },
-    "qfagentfeedback": {
-        "profraw_path": "unit_tests/posix-x86_64/qfagentfeedback.utest-utest_1.13.39/default.profraw",
-        "so_file_path": "install/lib64/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
     },
     "qfagentminidump": {
         "profraw_path": "unit_tests/posix-x86_64/qfagentminidump.utest-test_1.20.10/default.profraw",
