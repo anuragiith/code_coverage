@@ -1,346 +1,342 @@
 {
     "apiservice": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/apiservice-test_1.30.9/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_apiservice_1.30.so"
+        "profraw_path": "{base_path}/apiservice-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_apiservice_1.30.so"
     },
     "aps": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perfrun.tests.pcie_device_mapper-perfrun_1.32.43/platforms_snapshots/default.profraw",
+        "profraw_path": "{base_path}/perfrun.tests.pcie_device_mapper-perfrun_{version}/platforms_snapshots/default.profraw",
         "so_file_path": null
     },
     "boost": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/boost.filesystem.tests-DPD200174439_1.82.0.1/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_boost_date_time_1.82.so"
+        "profraw_path": "{base_path}/boost.filesystem.tests-DPD200174439_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_boost_date_time_1.82.so"
     },
     "cctrl": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/cctrl.utest-utest_2.55.11/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/amplxe_cctrl_climgr_2.55.pdb"
+        "profraw_path": "{base_path}/cctrl.utest-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/amplxe_cctrl_climgr_2.55.pdb"
     },
     "cfgmgr": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/cfgmgr-utest_2.45.6/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_cfgmgr_2.45.so"
+        "profraw_path": "{base_path}/cfgmgr-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_cfgmgr_2.45.so"
     },
     "clpt": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/clpt-test_3.11.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_clpt_3.11.so"
+        "profraw_path": "{base_path}/clpt-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_clpt_3.11.so"
     },
     "collectionagent": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/collectionagent.utest-test_1.30.13/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_collectionagent_adapter_1.30.so"
+        "profraw_path": "{base_path}/collectionagent.utest-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_collectionagent_adapter_1.30.so"
     },
     "collectionapi": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/collectionapi-utest_1.31.26/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_collectionapi_1.31.so"
+        "profraw_path": "{base_path}/collectionapi-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_collectionapi_1.31.so"
     },
     "collectunits": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/collectunits.sal.test-test_1.155.16/default.profraw",
+        "profraw_path": "{base_path}/collectunits.sal.test-test_{version}/default.profraw",
         "so_file_path": null
     },
     "cpil": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/cpil-cpil_utest_2.20.8/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_cpil_2.20.so"
+        "profraw_path": "{base_path}/cpil-cpil_utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_cpil_2.20.so"
     },
     "curl": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_curl_8.5.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_curl_8.5.so"
     },
     "custom_reports": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/amplxe_custom_reports_python2.so"
+        "so_file_path": "{base_path}/install/lib64/amplxe_custom_reports_python2.so"
     },
     "dataproviderinterface": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dataproviderinterface.utest-test_headers_1.60.3/default.profraw",
+        "profraw_path": "{base_path}/dataproviderinterface.utest-test_headers_{version}/default.profraw",
         "so_file_path": null
     },
     "datasource": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/datasource.utest-test_1.7.6/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_datasource_core_1.7.so"
+        "profraw_path": "{base_path}/datasource.utest-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_datasource_core_1.7.so"
     },
     "dbinterface": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dbinterface.utest-sqlite_1.201.11/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+        "profraw_path": "{base_path}/dbinterface.utest-sqlite_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
     },
     "dbiproviders": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dbiproviders.utest-all_1.6.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dbiproviders_core_1.6.so"
+        "profraw_path": "{base_path}/dbiproviders.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dbiproviders_core_1.6.so"
     },
     "dblayer": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dblayer_dblayer_1.0.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dblayer_dblayer_1.0.so"
     },
     "dia": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/diagramdataprovider.utest-all_1.0.62/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+        "profraw_path": "{base_path}/diagramdataprovider.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
     },
     "diagramdataprovider": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/diagramdataprovider.utest-all_1.0.62/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+        "profraw_path": "{base_path}/diagramdataprovider.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
     },
     "dicerengine": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dicerengine.utest-all_2.27.63/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dicerengine_core_2.27.so"
+        "profraw_path": "{base_path}/dicerengine.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerengine_core_2.27.so"
     },
     "dicerhelpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dicerhelpers.pytest-query_library_1.23.21/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dicerhelpers_core_1.23.so"
+        "profraw_path": "{base_path}/dicerhelpers.pytest-query_library_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerhelpers_core_1.23.so"
     },
     "dicerresolver": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dicerresolver.utest-all_2.27.53/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dicerresolver_core_2.27.so"
+        "profraw_path": "{base_path}/dicerresolver.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerresolver_core_2.27.so"
     },
     "dpihelpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dpihelpers.utest-all_1.43.11/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dpihelpers_1.43.so"
+        "profraw_path": "{base_path}/dpihelpers.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dpihelpers_1.43.so"
     },
     "dvt": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dvt_core_6.9.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dvt_core_6.9.so"
     },
     "featurestat": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_featurestat_core_1.5.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_featurestat_core_1.5.so"
     },
     "file_finder": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/file_finder.climgr_test-climgr_test_2.31.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_file_finder_binary_validators_2.31.so"
+        "profraw_path": "{base_path}/file_finder.climgr_test-climgr_test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_file_finder_binary_validators_2.31.so"
     },
     "gahelper": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_gahelper_product_helper_1.3.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_gahelper_product_helper_1.3.so"
     },
     "ged": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_ged_internal.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_ged_internal.so"
     },
     "gen_helpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/gen_helpers.utest-all_2.52.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_gen_helpers_core_2.52.so"
+        "profraw_path": "{base_path}/gen_helpers.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_gen_helpers_core_2.52.so"
     },
     "googletest": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/googletest.tests-googletest-death-test-test/default.profraw",
+        "profraw_path": "{base_path}/googletest.tests-googletest-death-test-test/default.profraw",
         "so_file_path": null
     },
     "googletest_pincrt": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/googletest_pincrt.tests-googletest-death-test-test/default.profraw",
+        "profraw_path": "{base_path}/googletest_pincrt.tests-googletest-death-test-test/default.profraw",
         "so_file_path": null
     },
     "gtpin": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/gtpin/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/gtpin_nda"
+        "profraw_path": "{base_path}/tpssplug.utest-all_{version}/gtpin/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/gtpin_nda"
     },
     "httpclient": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_httpclient_core_1.4.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_httpclient_core_1.4.so"
     },
     "iga": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_iga_nda.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_iga_nda.so"
     },
     "ism": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_ism_core_3.45.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_ism_core_3.45.so"
     },
     "level_zero": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/compute/gtpin_level_zero/default.profraw",
+        "profraw_path": "{base_path}/tpssplug.utest-all_2.35.34/compute/gtpin_level_zero/default.profraw",
         "so_file_path": null
     },
     "libarchive": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_libarchive_3.6.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_libarchive_3.6.so"
     },
     "libarchive-utils": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_libarchive-utils_1.2.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_libarchive-utils_1.2.so"
     },
     "libipt": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_libipt_sideband_2.0.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_libipt_sideband_2.0.so"
     },
     "libssh": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libssh.so"
+        "so_file_path": "{base_path}/install/lib64/libssh.so"
     },
     "libxml": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_libxml_2.11.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_libxml_2.11.so"
     },
     "libxslt": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_libxslt_1.1.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_libxslt_1.1.so"
     },
     "loadermodel": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/loadermodel-all_1.13.45/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_loadermodel_1.13.so"
+        "profraw_path": "{base_path}/loadermodel-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_loadermodel_1.13.so"
     },
     "lua": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_lua_5.4.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_lua_5.4.so"
     },
     "mrtesym": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_mrtesym_jitreader_3.13.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_mrtesym_jitreader_3.13.so"
     },
     "msngr": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/msngr.cmd_test-utest_2.10.14/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_msngr_cmd_2.10.so"
+        "profraw_path": "{base_path}/msngr.cmd_test-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_msngr_cmd_2.10.so"
     },
     "opencl": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/timelinedataprovider.utest-all_1.27.7/results/opencl/default.profraw",
+        "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/results/opencl/default.profraw",
         "so_file_path": null
     },
     "perfcli": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perfcli.test-cli_test_1.9.193/default.profraw",
+        "profraw_path": "{base_path}/perfcli.test-cli_test_{version}/default.profraw",
         "so_file_path": null
     },
     "perfconfigs": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perfconfigs.utest-framework_4.17.114/default.profraw",
+        "profraw_path": "{base_path}/perfconfigs.utest-framework_{version}/default.profraw",
         "so_file_path": null
     },
     "perfrun": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perfrun.tests.cmdline_parser-perfrun_1.32.43/default.profraw",
+        "profraw_path": "{base_path}/perfrun.tests.cmdline_parser-perfrun_{version}/default.profraw",
         "so_file_path": null
     },
     "perftracerw": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perftracerw.utils.tests.viewers-perftracerw_1.60.29/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_perftracerw_api_1.60.so"
+        "profraw_path": "{base_path}/perftracerw.utils.tests.viewers-perftracerw_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_perftracerw_api_1.60.so"
     },
     "platform_picker": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libplatform_picker_AXE_install_nda.so"
+        "so_file_path": "{base_path}/install/lib64/libplatform_picker_AXE_install_nda.so"
     },
     "python": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/python"
+        "profraw_path": "{base_path}/pythonhelpers.embed_utest-test_exception_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/python"
     },
     "pythonhelpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/pythonhelpers.embed_utest-test_exception_1.8.20/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/amplxe_pythonhelpers_genhelpers1.pdb"
+        "profraw_path": "{base_path}/pythonhelpers.embed_utest-test_exception_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/amplxe_pythonhelpers_genhelpers1.pdb"
     },
     "pytrace": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_pytraceplug_1.3.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_pytraceplug_1.3.so"
     },
     "pytraceplug": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_pytraceplug_1.3.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_pytraceplug_1.3.so"
     },
     "qfagent": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/qfagent.qfagent-usage_1.11.53/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_qfagent_assert_1.20.so"
+        "profraw_path": "{base_path}/qfagent.qfagent-usage_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagent_assert_1.20.so"
     },
     "qfagentcrashanalyzer": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/qfagentcrashanalyzer.utest-utest_1.12.26/default.profraw",
+        "profraw_path": "{base_path}/qfagentcrashanalyzer.utest-utest_{version}/default.profraw",
         "so_file_path": null
     },
     "qfagentfeedback": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/qfagentfeedback.utest-utest_1.13.39/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
+        "profraw_path": "{base_path}/qfagentfeedback.utest-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
     },
     "qfagentminidump": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/qfagentminidump.utest-test_1.20.10/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_qfagentminidump_core_1.20.so"
+        "profraw_path": "{base_path}/qfagentminidump.utest-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagentminidump_core_1.20.so"
     },
     "rdmgr": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/rdmgr-rdmgrtest_2.41.4/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_rdmgr_2.41.so"
+        "profraw_path": "{base_path}/rdmgr-rdmgrtest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_rdmgr_2.41.so"
     },
     "reporter": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/reporter.test-reporter_test_2.9.19/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_reporter_climgr_2.9.so"
+        "profraw_path": "{base_path}/reporter.test-reporter_test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_reporter_climgr_2.9.so"
     },
     "sampling": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/perfconfigs.utest-stall_sampling_mode_availability_4.17.114/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
+        "profraw_path": "{base_path}/perfconfigs.utest-stall_sampling_mode_availability_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
     },
     "samplingmrte": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
     },
     "sampling_utils": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_sampling_utils_3.46.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_sampling_utils_3.46.so"
     },
     "sepplug": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/sepplug.utest-all_3.11.5/default.profraw",
+        "profraw_path": "{base_path}/sepplug.utest-all_{version}/default.profraw",
         "so_file_path": null
     },
     "service-registry": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libservice-registry.so"
+        "so_file_path": "{base_path}/install/lib64/libservice-registry.so"
     },
     "smip": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/smip.utest-utest_3.31.46/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_smip_core_3.31.so"
+        "profraw_path": "{base_path}/smip.utest-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_smip_core_3.31.so"
     },
     "socperf": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libabstract_socperf.so"
+        "so_file_path": "{base_path}/install/lib64/libabstract_socperf.so"
     },
     "sourceviewapi": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/sourceviewapi-test_1.4.31/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_sourceviewapi_1.4.so"
+        "profraw_path": "{base_path}/sourceviewapi-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_sourceviewapi_1.4.so"
     },
     "sqlite": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/dbinterface.utest-sqlite_1.201.11/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+        "profraw_path": "{base_path}/dbinterface.utest-sqlite_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
     },
     "stackwalk": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_stackwalk_factory_1.32.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_stackwalk_factory_1.32.so"
     },
     "tbb": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libtbbmalloc.so.2"
+        "so_file_path": "{base_path}/install/lib64/libtbbmalloc.so.2"
     },
     "tbrw": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_tbrw_smrk_3.46.so"
+        "so_file_path": "{base_path}/install/lib64/libamplxe_tbrw_smrk_3.46.so"
     },
     "timelinedataprovider": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/timelinedataprovider.utest-all_1.27.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_timelinedataprovider_core_1.27.so"
+        "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_timelinedataprovider_core_1.27.so"
     },
     "timelinevm": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/timelinevm-test_1.6.0/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_timelinevm_1.6.so"
+        "profraw_path": "{base_path}/timelinevm-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_timelinevm_1.6.so"
     },
     "tls": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libtls-certificates.so"
+        "so_file_path": "{base_path}/install/lib64/libtls-certificates.so"
     },
     "tpss": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libtpsstool.so"
+        "profraw_path": "{base_path}/tpssplug.utest-all_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libtpsstool.so"
     },
     "tpssplug": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/tpssplug.utest-all_2.35.34/default.profraw",
+        "profraw_path": "{base_path}/tpssplug.utest-all_{version}/default.profraw",
         "so_file_path": null
     },
     "userapi": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/userapihelpers.utest-ut_helpers_1.1.18/default.profraw",
+        "profraw_path": "{base_path}/userapihelpers.utest-ut_helpers_{version}/default.profraw",
         "so_file_path": null
     },
     "userapihelpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/userapihelpers.utest-ut_helpers_1.1.18/default.profraw",
+        "profraw_path": "{base_path}/userapihelpers.utest-ut_helpers_{version}/default.profraw",
         "so_file_path": null
     },
     "viewmodelbase": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/viewmodelbase.utest-test_1.83.7/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_viewmodelbase_core_1.83.so"
+        "profraw_path": "{base_path}/viewmodelbase.utest-test_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_viewmodelbase_core_1.83.so"
     },
     "viewpointhelpers": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/viewpointhelpers.utest-utest_1.2.2/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_viewpointhelpers_core_1.2.so"
+        "profraw_path": "{base_path}/viewpointhelpers.utest-utest_{version}/default.profraw",
+        "so_file_path": "{base_path}/install/lib64/libamplxe_viewpointhelpers_core_1.2.so"
     },
     "viewpoint-registry": {
         "profraw_path": null,
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libviewpoint-registry.so"
+        "so_file_path": "{base_path}/install/lib64/libviewpoint-registry.so"
     },
     "vtsspp": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/timelinedataprovider.utest-all_1.27.7/results/vtsspp/default.profraw",
+        "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/results/vtsspp/default.profraw",
         "so_file_path": null
-    },
-    "": {
-        "profraw_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/unit_tests/posix-x86_64/apiservice-test_1.30.9/default.profraw",
-        "so_file_path": "/home/sdp/workspace/anurag/fresh_attempt/applications.analyzers.vtune/install/lib64/libamplxe_md_nda.so.1"
     }
 }

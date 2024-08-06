@@ -3,25 +3,57 @@ import subprocess
 import logging
 import json
 import shutil
+import pathlib as Path
+
+PROFRAW_RELATIVE_PATH = "unit_tests/posix-x86_64"
+SO_RELATIVE_PATH = "install/lib64"
 
 class CodeCoverageReportGenerator:
     def __init__(self, root, components_file, exclude):
         self.root = root
+        self.logger = self.setup_logger()
+        self.component_version = self.get_component_version()
         self.component_map = self.read_components(components_file)
+        # import sys; sys.exit()
         self.exclude = exclude
         self.failed_components = {}
-        self.logger = self.setup_logger()
         self.setup_code_coverage()
         self.profraw_files = self.collect_profraw_files()
         self.merged_profdata_file = self.generate_profdata_file()
         self.so_files = self.collect_so_files()
-    
+
+    def get_component_version(self):
+        from sconstruct_reader import get_component_versions
+        sconstruct_path = os.path.join(self.root, "SConstruct")
+        print(sconstruct_path)
+        try:
+            component_versions = get_component_versions(sconstruct_path)
+            if component_versions is not None:
+                return component_versions
+        except Exception as e:
+            print(e)
+            # TODO : Fallback mechanism
+            print("Need fallback mechanism")
+
     def read_components(self, components_file):
         try:
             # Open the JSON file
             with open(components_file, 'r') as file:
                 # Load JSON data from the file
                 data = json.load(file)
+
+                profraw_base_path = f"{self.root}/{PROFRAW_RELATIVE_PATH}"
+                so_base_path = f"{self.root}/{SO_RELATIVE_PATH}"
+
+                # Replace the placeholders in the JSON data
+                for component, details in data.items():
+                    if details['profraw_path']:
+                        details['profraw_path'] = details['profraw_path'].format(base_path=profraw_base_path, version=self.component_version[component]['version'])
+                    if details['so_file_path']:
+                        details['so_file_path'] = details['so_file_path'].format(base_path=so_base_path)
+
+                # Now you can use the updated data dictionary with the placeholders replaced
+                self.logger.info(data)
             return data
         except FileNotFoundError as e:
             self.logger.error(f"Error: File '{components_file}' not found.")
