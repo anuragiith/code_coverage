@@ -1,7 +1,7 @@
 {
     "apiservice": {
         "profraw_path": "{base_path}/apiservice-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_apiservice_1.30.so"
+        "so_file_path": "{base_path}/libamplxe_apiservice_1.30.so"
     },
     "aps": {
         "profraw_path": "{base_path}/perfrun.tests.pcie_device_mapper-perfrun_{version}/platforms_snapshots/default.profraw",
@@ -9,27 +9,27 @@
     },
     "boost": {
         "profraw_path": "{base_path}/boost.filesystem.tests-DPD200174439_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_boost_date_time_1.82.so"
+        "so_file_path": "{base_path}/libamplxe_boost_date_time_1.82.so"
     },
     "cctrl": {
         "profraw_path": "{base_path}/cctrl.utest-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/amplxe_cctrl_climgr_2.55.pdb"
+        "so_file_path": "{base_path}/amplxe_cctrl_climgr_2.55.pdb"
     },
     "cfgmgr": {
         "profraw_path": "{base_path}/cfgmgr-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_cfgmgr_2.45.so"
+        "so_file_path": "{base_path}/libamplxe_cfgmgr_2.45.so"
     },
     "clpt": {
         "profraw_path": "{base_path}/clpt-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_clpt_3.11.so"
+        "so_file_path": "{base_path}/libamplxe_clpt_3.11.so"
     },
     "collectionagent": {
         "profraw_path": "{base_path}/collectionagent.utest-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_collectionagent_adapter_1.30.so"
+        "so_file_path": "{base_path}/libamplxe_collectionagent_adapter_1.30.so"
     },
     "collectionapi": {
         "profraw_path": "{base_path}/collectionapi-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_collectionapi_1.31.so"
+        "so_file_path": "{base_path}/libamplxe_collectionapi_1.31.so"
     },
     "collectunits": {
         "profraw_path": "{base_path}/collectunits.sal.test-test_{version}/default.profraw",
@@ -37,15 +37,15 @@
     },
     "cpil": {
         "profraw_path": "{base_path}/cpil-cpil_utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_cpil_2.20.so"
+        "so_file_path": "{base_path}/libamplxe_cpil_2.20.so"
     },
     "curl": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_curl_8.5.so"
+        "so_file_path": "{base_path}/libamplxe_curl_8.5.so"
     },
     "custom_reports": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/amplxe_custom_reports_python2.so"
+        "so_file_path": "{base_path}/amplxe_custom_reports_python2.so"
     },
     "dataproviderinterface": {
         "profraw_path": "{base_path}/dataproviderinterface.utest-test_headers_{version}/default.profraw",
@@ -53,67 +53,67 @@
     },
     "datasource": {
         "profraw_path": "{base_path}/datasource.utest-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_datasource_core_1.7.so"
+        "so_file_path": "{base_path}/libamplxe_datasource_core_1.7.so"
     },
     "dbinterface": {
         "profraw_path": "{base_path}/dbinterface.utest-sqlite_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+        "so_file_path": "{base_path}/libamplxe_dbinterface_sqlite_1.201.so"
     },
     "dbiproviders": {
         "profraw_path": "{base_path}/dbiproviders.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dbiproviders_core_1.6.so"
+        "so_file_path": "{base_path}/libamplxe_dbiproviders_core_1.6.so"
     },
     "dblayer": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dblayer_dblayer_1.0.so"
+        "so_file_path": "{base_path}/libamplxe_dblayer_dblayer_1.0.so"
     },
     "dia": {
         "profraw_path": "{base_path}/diagramdataprovider.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+        "so_file_path": "{base_path}/libamplxe_diagramdataprovider_core_1.0.so"
     },
     "diagramdataprovider": {
         "profraw_path": "{base_path}/diagramdataprovider.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_diagramdataprovider_core_1.0.so"
+        "so_file_path": "{base_path}/libamplxe_diagramdataprovider_core_1.0.so"
     },
     "dicerengine": {
         "profraw_path": "{base_path}/dicerengine.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerengine_core_2.27.so"
+        "so_file_path": "{base_path}/libamplxe_dicerengine_core_2.27.so"
     },
     "dicerhelpers": {
         "profraw_path": "{base_path}/dicerhelpers.pytest-query_library_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerhelpers_core_1.23.so"
+        "so_file_path": "{base_path}/libamplxe_dicerhelpers_core_1.23.so"
     },
     "dicerresolver": {
         "profraw_path": "{base_path}/dicerresolver.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dicerresolver_core_2.27.so"
+        "so_file_path": "{base_path}/libamplxe_dicerresolver_core_2.27.so"
     },
     "dpihelpers": {
         "profraw_path": "{base_path}/dpihelpers.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dpihelpers_1.43.so"
+        "so_file_path": "{base_path}/libamplxe_dpihelpers_1.43.so"
     },
     "dvt": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dvt_core_6.9.so"
+        "so_file_path": "{base_path}/libamplxe_dvt_core_6.9.so"
     },
     "featurestat": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_featurestat_core_1.5.so"
+        "so_file_path": "{base_path}/libamplxe_featurestat_core_1.5.so"
     },
     "file_finder": {
         "profraw_path": "{base_path}/file_finder.climgr_test-climgr_test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_file_finder_binary_validators_2.31.so"
+        "so_file_path": "{base_path}/libamplxe_file_finder_binary_validators_2.31.so"
     },
     "gahelper": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_gahelper_product_helper_1.3.so"
+        "so_file_path": "{base_path}/libamplxe_gahelper_product_helper_1.3.so"
     },
     "ged": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_ged_internal.so"
+        "so_file_path": "{base_path}/libamplxe_ged_internal.so"
     },
     "gen_helpers": {
         "profraw_path": "{base_path}/gen_helpers.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_gen_helpers_core_2.52.so"
+        "so_file_path": "{base_path}/libamplxe_gen_helpers_core_2.52.so"
     },
     "googletest": {
         "profraw_path": "{base_path}/googletest.tests-googletest-death-test-test/default.profraw",
@@ -125,19 +125,19 @@
     },
     "gtpin": {
         "profraw_path": "{base_path}/tpssplug.utest-all_{version}/gtpin/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/gtpin_nda"
+        "so_file_path": "{base_path}/gtpin_nda"
     },
     "httpclient": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_httpclient_core_1.4.so"
+        "so_file_path": "{base_path}/libamplxe_httpclient_core_1.4.so"
     },
     "iga": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_iga_nda.so"
+        "so_file_path": "{base_path}/libamplxe_iga_nda.so"
     },
     "ism": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_ism_core_3.45.so"
+        "so_file_path": "{base_path}/libamplxe_ism_core_3.45.so"
     },
     "level_zero": {
         "profraw_path": "{base_path}/tpssplug.utest-all_2.35.34/compute/gtpin_level_zero/default.profraw",
@@ -145,43 +145,43 @@
     },
     "libarchive": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_libarchive_3.6.so"
+        "so_file_path": "{base_path}/libamplxe_libarchive_3.6.so"
     },
     "libarchive-utils": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_libarchive-utils_1.2.so"
+        "so_file_path": "{base_path}/libamplxe_libarchive-utils_1.2.so"
     },
     "libipt": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_libipt_sideband_2.0.so"
+        "so_file_path": "{base_path}/libamplxe_libipt_sideband_2.0.so"
     },
     "libssh": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libssh.so"
+        "so_file_path": "{base_path}/libssh.so"
     },
     "libxml": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_libxml_2.11.so"
+        "so_file_path": "{base_path}/libamplxe_libxml_2.11.so"
     },
     "libxslt": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_libxslt_1.1.so"
+        "so_file_path": "{base_path}/libamplxe_libxslt_1.1.so"
     },
     "loadermodel": {
         "profraw_path": "{base_path}/loadermodel-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_loadermodel_1.13.so"
+        "so_file_path": "{base_path}/libamplxe_loadermodel_1.13.so"
     },
     "lua": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_lua_5.4.so"
+        "so_file_path": "{base_path}/libamplxe_lua_5.4.so"
     },
     "mrtesym": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_mrtesym_jitreader_3.13.so"
+        "so_file_path": "{base_path}/libamplxe_mrtesym_jitreader_3.13.so"
     },
     "msngr": {
         "profraw_path": "{base_path}/msngr.cmd_test-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_msngr_cmd_2.10.so"
+        "so_file_path": "{base_path}/libamplxe_msngr_cmd_2.10.so"
     },
     "opencl": {
         "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/results/opencl/default.profraw",
@@ -201,31 +201,31 @@
     },
     "perftracerw": {
         "profraw_path": "{base_path}/perftracerw.utils.tests.viewers-perftracerw_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_perftracerw_api_1.60.so"
+        "so_file_path": "{base_path}/libamplxe_perftracerw_api_1.60.so"
     },
     "platform_picker": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libplatform_picker_AXE_install_nda.so"
+        "so_file_path": "{base_path}/libplatform_picker_AXE_install_nda.so"
     },
     "python": {
         "profraw_path": "{base_path}/pythonhelpers.embed_utest-test_exception_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/python"
+        "so_file_path": "{base_path}/python"
     },
     "pythonhelpers": {
         "profraw_path": "{base_path}/pythonhelpers.embed_utest-test_exception_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/amplxe_pythonhelpers_genhelpers1.pdb"
+        "so_file_path": "{base_path}/amplxe_pythonhelpers_genhelpers1.pdb"
     },
     "pytrace": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_pytraceplug_1.3.so"
+        "so_file_path": "{base_path}/libamplxe_pytraceplug_1.3.so"
     },
     "pytraceplug": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_pytraceplug_1.3.so"
+        "so_file_path": "{base_path}/libamplxe_pytraceplug_1.3.so"
     },
     "qfagent": {
         "profraw_path": "{base_path}/qfagent.qfagent-usage_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagent_assert_1.20.so"
+        "so_file_path": "{base_path}/libamplxe_qfagent_assert_1.20.so"
     },
     "qfagentcrashanalyzer": {
         "profraw_path": "{base_path}/qfagentcrashanalyzer.utest-utest_{version}/default.profraw",
@@ -233,31 +233,31 @@
     },
     "qfagentfeedback": {
         "profraw_path": "{base_path}/qfagentfeedback.utest-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
+        "so_file_path": "{base_path}/libamplxe_qfagentfeedback_collect_stacks_1.13.so.pdb"
     },
     "qfagentminidump": {
         "profraw_path": "{base_path}/qfagentminidump.utest-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_qfagentminidump_core_1.20.so"
+        "so_file_path": "{base_path}/libamplxe_qfagentminidump_core_1.20.so"
     },
     "rdmgr": {
         "profraw_path": "{base_path}/rdmgr-rdmgrtest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_rdmgr_2.41.so"
+        "so_file_path": "{base_path}/libamplxe_rdmgr_2.41.so"
     },
     "reporter": {
         "profraw_path": "{base_path}/reporter.test-reporter_test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_reporter_climgr_2.9.so"
+        "so_file_path": "{base_path}/libamplxe_reporter_climgr_2.9.so"
     },
     "sampling": {
         "profraw_path": "{base_path}/perfconfigs.utest-stall_sampling_mode_availability_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
+        "so_file_path": "{base_path}/libamplxe_samplingmrte_clrprof_1.0.so"
     },
     "samplingmrte": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_samplingmrte_clrprof_1.0.so"
+        "so_file_path": "{base_path}/libamplxe_samplingmrte_clrprof_1.0.so"
     },
     "sampling_utils": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_sampling_utils_3.46.so"
+        "so_file_path": "{base_path}/libamplxe_sampling_utils_3.46.so"
     },
     "sepplug": {
         "profraw_path": "{base_path}/sepplug.utest-all_{version}/default.profraw",
@@ -265,51 +265,51 @@
     },
     "service-registry": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libservice-registry.so"
+        "so_file_path": "{base_path}/libservice-registry.so"
     },
     "smip": {
         "profraw_path": "{base_path}/smip.utest-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_smip_core_3.31.so"
+        "so_file_path": "{base_path}/libamplxe_smip_core_3.31.so"
     },
     "socperf": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libabstract_socperf.so"
+        "so_file_path": "{base_path}/libabstract_socperf.so"
     },
     "sourceviewapi": {
         "profraw_path": "{base_path}/sourceviewapi-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_sourceviewapi_1.4.so"
+        "so_file_path": "{base_path}/libamplxe_sourceviewapi_1.4.so"
     },
     "sqlite": {
         "profraw_path": "{base_path}/dbinterface.utest-sqlite_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_dbinterface_sqlite_1.201.so"
+        "so_file_path": "{base_path}/libamplxe_dbinterface_sqlite_1.201.so"
     },
     "stackwalk": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_stackwalk_factory_1.32.so"
+        "so_file_path": "{base_path}/libamplxe_stackwalk_factory_1.32.so"
     },
     "tbb": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libtbbmalloc.so.2"
+        "so_file_path": "{base_path}/libtbbmalloc.so.2"
     },
     "tbrw": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libamplxe_tbrw_smrk_3.46.so"
+        "so_file_path": "{base_path}/libamplxe_tbrw_smrk_3.46.so"
     },
     "timelinedataprovider": {
         "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_timelinedataprovider_core_1.27.so"
+        "so_file_path": "{base_path}/libamplxe_timelinedataprovider_core_1.27.so"
     },
     "timelinevm": {
         "profraw_path": "{base_path}/timelinevm-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_timelinevm_1.6.so"
+        "so_file_path": "{base_path}/libamplxe_timelinevm_1.6.so"
     },
     "tls": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libtls-certificates.so"
+        "so_file_path": "{base_path}/libtls-certificates.so"
     },
     "tpss": {
         "profraw_path": "{base_path}/tpssplug.utest-all_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libtpsstool.so"
+        "so_file_path": "{base_path}/libtpsstool.so"
     },
     "tpssplug": {
         "profraw_path": "{base_path}/tpssplug.utest-all_{version}/default.profraw",
@@ -325,15 +325,15 @@
     },
     "viewmodelbase": {
         "profraw_path": "{base_path}/viewmodelbase.utest-test_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_viewmodelbase_core_1.83.so"
+        "so_file_path": "{base_path}/libamplxe_viewmodelbase_core_1.83.so"
     },
     "viewpointhelpers": {
         "profraw_path": "{base_path}/viewpointhelpers.utest-utest_{version}/default.profraw",
-        "so_file_path": "{base_path}/install/lib64/libamplxe_viewpointhelpers_core_1.2.so"
+        "so_file_path": "{base_path}/libamplxe_viewpointhelpers_core_1.2.so"
     },
     "viewpoint-registry": {
         "profraw_path": null,
-        "so_file_path": "{base_path}/install/lib64/libviewpoint-registry.so"
+        "so_file_path": "{base_path}/libviewpoint-registry.so"
     },
     "vtsspp": {
         "profraw_path": "{base_path}/timelinedataprovider.utest-all_{version}/results/vtsspp/default.profraw",
